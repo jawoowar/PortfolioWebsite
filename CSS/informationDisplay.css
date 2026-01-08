@@ -15,12 +15,18 @@
 }
 
 .image {
-    background-image: url(../assets/BGwebsite.png);
-    background-position: center;
     background-size: cover;
     width:100%;
     height: 500px;
     transition: all 0.3s ease-in-out;
+}
+
+#cuphead {
+    background-image: url("../assets/websites/coverCuphead.png");
+}
+
+#steam {
+    background-image: url("../assets/websites/steam/Screenshot\ 2026-01-08\ 175151.png");
 }
 
 
