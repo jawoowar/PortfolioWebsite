@@ -1,0 +1,124 @@
+body {
+    background-color: #FAE4D8;
+}
+
+.main {
+
+}
+
+.nav {
+    margin-bottom: 10px;
+    position: sticky;
+    top: 0;
+    background-color:#FAE4D8;
+}
+
+.nav a {
+    margin-left: 25px;
+    margin-right: 25px;
+    border: none;
+    transition: border .3s, 2s;
+    transition-timing-function: ease;
+}
+
+.active {
+    border-bottom: 1px solid black;
+}
+
+.nav a:hover {
+    border-bottom: 1px solid black;
+}
+
+.nav button {
+    background: none;
+    border: none;
+}
+
+.content {
+    display: inline;
+}
+
+.content button {
+    width: 100%;
+    background: none;
+    border:none;
+    margin-bottom: -100px;
+}
+
+button h1 {
+    position: relative;
+    color: white;
+    transition: font-size 1s;
+    transition-timing-function: ease;
+    height: 500px;
+    padding-top: 275px;
+}
+
+#Art {
+    background-image: url(../assets/BGart.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+#Photography {
+    background-image: url(../assets/BGduck.png);
+    background-position: center;
+    background-size: cover;
+}
+
+#Websites {
+    background-image: url(../assets/BGwebsite.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.content button:hover {
+    font-size: 50px;
+}
+
+.contentNextTo {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.contentNextTo button {
+    background: none;
+    border:none;
+    width: 100%;
+    margin-bottom: 100px;
+}
+
+.contentNextTo button h1 {
+    position: relative;
+    color: black;
+    transition: font-size 1s;
+    transition-timing-function: ease;
+    height: 250px;
+    padding-top: 175px;
+}
+
+.contentNextTo button:hover {
+    font-size: 25px;
+}
+
+hr {
+    margin-bottom: 1px solid black;
+    width:80%;
+    justify-self: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.titleHolder {
+    display: flex;
+    justify-content: center;
+}
+
+.titleHolder hr {
+    width: 35%;
+}
+
+.handleHolder {
+    display: flex;
+    justify-content: space-evenly;
+}

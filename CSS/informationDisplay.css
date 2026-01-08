@@ -1,0 +1,24 @@
+.site {
+    display: flex;
+}
+
+.info {
+    display: none;
+    background-color: aqua;
+    width: 100%;
+    height: 500px;
+}
+
+.infoHolder {
+    background-image: url(../assets/BGwebsite.png);
+    background-position: center;
+    background-size: cover;
+    width:100%;
+    height: 500px;
+
+}
+
+
+.info:hover {
+    display: block;
+}
