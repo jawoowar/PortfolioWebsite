@@ -122,3 +122,13 @@ hr {
     display: flex;
     justify-content: space-evenly;
 }
+
+
+.vertLine {
+    border-right: 1px solid black;
+    height: 70%;
+    margin-left: 1%;
+    margin-right: 1%;
+    margin-top: auto;
+    margin-bottom: auto;
+}

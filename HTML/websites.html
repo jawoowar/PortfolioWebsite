@@ -2,6 +2,7 @@
     <header>
         <link rel="stylesheet" href="..\CSS\main.css">
         <link rel="stylesheet" href="..\CSS\informationDisplay.css">
+        <link rel="stylesheet" href="..\CSS\slideshow.css">
     </header>
 
     <div class="nav">
@@ -9,9 +10,9 @@
         <a href="photography.html"><button>Photography</button></a>
         <a href="design.html"><button>Design</button></a>
         <a href="websites.html"><button>Websites</button></a>
-        <a><button>Past Projects</button></a>
-        <a><button>About Me</button></a>
-        <a><button>Contact</button></a>
+        <!--<a><button>Past Projects</button></a>-->
+        <a href="aboutMe.html"><button>About Me</button></a>
+        <a href="contact.html"><button>Contact</button></a>
     </div>
 
     <body>
@@ -22,12 +23,98 @@
         </div>
 
         <div class="site">
-            <a class="infoHolder">
-                <div class="info">
-                    <h1>aaaa</h1>
+            <div class="image"> </div>
+            <div class="info">
+                <div class="infoBox">
+                    <h2>Cuphead Website</h2>
+                    <p>This website was made for a sixth form project.
+                        prompted by "a website focusing on music" i chose to
+                        make one on the game "Cuphead" that I was playing at the time.
+                        For the Design i chose to focus on newspaper designs from the early 30s
+                        (a time the game was heavily inspired by), using text faces from the time,
+                        and bringing the newspaper design of the time to the modern era with additional
+                        features only avalible on mondern devices.
+                    </p>
+                    <p>
+                        Due to the fact this website was developed in a school enviroment on "Wix" it is
+                        unable to be viewed by outside viewers but can be viewed in avalible images along 
+                        with images of development media.
+                    </p>
+                    <p>
+                        A download link for the creative process is avalible below
+                    </p>
+                    <a href="../assets/BGart.jpg" download><button>Download</button></a>
                 </div>
-            </a>
+                <div class="imageBox">
+                    <!-- due to time contrains that was taken from W3Schools - https://www.w3schools.com/howto/howto_js_slideshow.asp-->
+                    <div class="slideshow-container">
+                    <div class="mySlides1">
+                        <img src="../assets/BGart.jpg" class="slideImg">
+                    </div>
+
+                    <div class="mySlides1">
+                        <img src="../assets/BGduck.png" class="slideImg">
+                    </div>
+
+                    <div class="mySlides1">
+                        <img src="../assets/BGwebsite.png" class="slideImg">
+                    </div>
+
+                    <a class="prev" onclick="plusSlides(-1, 0)">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1, 0)">&#10095;</a>
+                    </div>
+                                        
+
+                </div>
+
+            </div>
+            
+        </div>
+
+        <div class="site">
+            <div class="image"> </div>
+            <div class="info">
+                <div class="infoBox">
+                    <h2>Cuphead Website</h2>
+                    <p>This website was made for a sixth form project.
+                        prompted by "a website focusing on music" i chose to
+                        make one on the game "Cuphead" that I was playing at the time.
+                        For the Design i chose to focus on newspaper designs from the early 30s
+                        (a time the game was heavily inspired by), using text faces from the time,
+                        and bringing the newspaper design of the time to the modern era with additional
+                        features only avalible on mondern devices.
+                    </p>
+                    <p>
+                        Due to the fact this website was developed in a school enviroment on "Wix" it is
+                        unable to be viewed by outside viewers but can be viewed in avalible images.
+                    </p>
+                </div>
+                <div class="vertLine"></div>
+                <div class="imageBox">
+                        <div class="slideshow-container">
+                        <div class="mySlides2">
+                            <img src="../assets/BGart.jpg" class="slideImg">
+                        </div>
+
+                        <div class="mySlides2">
+                            <img src="../assets/BGduck.png" class="slideImg">
+                        </div>
+
+                        <div class="mySlides2">
+                            <img src="../assets/BGwebsite.png" class="slideImg">
+                        </div>
+
+                        <a class="prev" onclick="plusSlides(-1, 1)">&#10094;</a>
+                        <a class="next" onclick="plusSlides(1, 1)">&#10095;</a>
+                        </div>
+                </div>
+
+            </div>
+            
         </div>
 
     </body>
+
+    <script src="../scripts/slideshow.js"></script>
+    
 </HTML>
