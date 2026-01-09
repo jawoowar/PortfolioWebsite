@@ -51,3 +51,12 @@ hr {
     display: flex;
     justify-content: space-evenly;
 }
+
+.handleHolder a {
+    text-decoration: none;
+    color: black;
+}
+
+.handleHolder a:hover {
+    color: #eca47d;
+}

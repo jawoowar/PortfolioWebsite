@@ -10,6 +10,8 @@
   border: 1px solid black;
   padding: 10px;
   background-color: white;
+  height: 420px;
+  align-content: center;
 }
 
 /* Hide the images by default */
@@ -92,7 +94,11 @@
 }
 
 .slideImg {
-    height: 400px;
+    max-height: 400px;
+    min-height: 200px;
+    max-width: 80%;
+    min-width: 200px;
+
     margin-left: auto;
     margin-right: auto;
 }

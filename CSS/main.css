@@ -11,6 +11,7 @@ body {
     position: sticky;
     top: 0;
     background-color:#FAE4D8;
+    padding: 10px;
 }
 
 .nav a {
@@ -45,14 +46,16 @@ body {
     margin-bottom: -100px;
 }
 
-button h1 {
+.content button h1 {
     position: relative;
-    color: white;
+    color: rgb(255, 253, 226);
     transition: font-size 1s;
     transition-timing-function: ease;
     height: 500px;
     padding-top: 275px;
+    text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000;
 }
+
 
 #Art {
     background-image: url(../assets/BGart.jpg);
@@ -76,6 +79,10 @@ button h1 {
     font-size: 50px;
 }
 
+.content button:hover h1 {
+
+}
+
 .contentNextTo {
     display: flex;
     justify-content: space-evenly;
@@ -95,6 +102,7 @@ button h1 {
     transition-timing-function: ease;
     height: 250px;
     padding-top: 175px;
+    text-shadow: none;
 }
 
 .contentNextTo button:hover {
