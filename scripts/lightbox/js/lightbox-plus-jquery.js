@@ -54,7 +54,6 @@ var flat = arr.flat ? function( array ) {
 	return arr.concat.apply( [], array );
 };
 
-
 var push = arr.push;
 
 var indexOf = arr.indexOf;
@@ -10761,15 +10760,16 @@ return jQuery;
     albumLabel: 'Image %1 of %2',
     alwaysShowNavOnTouchDevices: false,
     fadeDuration: 600,
-    fitImagesInViewport: true,
+    fitImagesInViewport: false,
     imageFadeDuration: 600,
-    // maxWidth: 800,
-    // maxHeight: 600,
+    maxWidth: window.innerWidth,
+    maxHeight: (window.innerHeight - 100),
     positionFromTop: 50,
     resizeDuration: 700,
     showImageNumberLabel: true,
     wrapAround: false,
     disableScrolling: false,
+
     /*
     Sanitize Title
     If the caption data is trusted, for example you are hardcoding it in, then leave this to false.
@@ -11057,6 +11057,10 @@ return jQuery;
 
         // Fit image inside the viewport.
         if (self.options.fitImagesInViewport) {
+			  console.log(maxWidth);
+				console.log(Math.max(document.documentElement.clientWidth || 0, window.innerWidth || 0));
+				console.log(maxHeight);
+				console.log(Math.max(document.documentElement.clientHeight || 0, window.innerHeight || 0));
 
           // Check if image size is larger then maxWidth|maxHeight in settings
           if (self.options.maxWidth && self.options.maxWidth < maxImageWidth) {
