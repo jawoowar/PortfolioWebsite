@@ -1,5 +1,5 @@
 .site {
-    display: flex;
+    
     transition: all 0.3s ease-in-out;
     margin-top: 30px;
     margin-bottom: 30px;
@@ -8,8 +8,8 @@
 .info {
     background-color: #eca47d;
     content-visibility: hidden;
-    width: 0%;
-    height: 500px;
+    width: 100%;
+    height: 0px;
     transition: all 0.3s ease-in-out;
     overflow: hidden;
 }
@@ -32,12 +32,12 @@
 
 .site:hover .info {
     display: flex;
-    width: 100%;
+    height: 500px;
     content-visibility: visible;
 }
 
 .site:hover .image {
-    width: 0%;
+    height: 0px;
 }
 
 .infoBox {
