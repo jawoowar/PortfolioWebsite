@@ -12,6 +12,7 @@ body {
     top: 0;
     background-color:#FAE4D8;
     padding: 10px;
+    z-index: 1000;
 }
 
 .nav a {
