@@ -1,0 +1,13 @@
+.subTitleHolder {
+    display: flex;
+    justify-content: center;
+    margin-bottom: -30px;
+}
+
+.subTitleHolder hr {
+    width: 15%;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
