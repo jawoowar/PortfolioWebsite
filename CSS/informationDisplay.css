@@ -86,3 +86,10 @@ h2 {
 .infoBox button:hover {
     background-color: #eca47d;;
 }
+
+.imageHolder {
+    display: flex;
+    justify-content: center;
+    padding-left: auto;
+    padding-right: auto;
+}
