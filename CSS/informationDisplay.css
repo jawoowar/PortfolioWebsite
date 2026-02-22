@@ -26,15 +26,23 @@
 }
 
 #steam {
-    background-image: url("../assets/placeholder.jpg");
+    background-image: url("../assets/coverImages/placeholder.jpg");
 }
 
 #gradGoose {
-    background-image: url("../assets/placeholder.jpg");
+    background-image: url("../assets/coverImages/gradGoose.png");
 }
 
 #portfolio {
-    background-image: url("../assets/placeholder.jpg");
+    background-image: url("../assets/coverImages/portfolio.png");
+}
+
+#magazine {
+    background-image: url("../assets/coverImages/placeholder.jpg");
+}
+
+#newspaper {
+    background-image: url("../assets/coverImages/newspaper.png");
 }
 
 

@@ -59,19 +59,19 @@ body {
 
 
 #Art {
-    background-image: url(../assets/BGart.jpg);
+    background-image: url(../assets/coverImages/BGart.jpg);
     background-position: center;
     background-size: cover;
 }
 
 #Photography {
-    background-image: url(../assets/BGduck.png);
+    background-image: url(../assets/coverImages/BGduck.png);
     background-position: center;
     background-size: cover;
 }
 
 #Websites {
-    background-image: url(../assets/BGwebsite.png);
+    background-image: url(../assets/coverImages/BGwebsite.png);
     background-position: center;
     background-size: cover;
 }
