@@ -15,7 +15,7 @@
 }
 
 /* Hide the images by default */
-.mySlides1 .mySlides2{
+.mySlides1 .mySlides2 .mySlides3 .mySlides4 .mySlides5 .mySlides6 .mySlides7 .mySlides8 .mySlides9 .mySlides10{
   display: none;
 }
 
@@ -39,6 +39,12 @@
 .next {
   right: 0;
   border-radius: 3px 0 0 3px;
+}
+
+/* alteration made to set position of prev to meet the side of the box */
+.prev {
+  left: 0;
+  border-radius: 0 3px 3px 0;
 }
 
 /* On hover, add a black background color with a little bit see-through */
@@ -94,8 +100,8 @@
 }
 
 .slideImg {
-    max-height: 400px;
-    min-height: 200px;
+    max-height: 300px;
+    min-height: 150px;
     max-width: 80%;
     min-width: 200px;
 
