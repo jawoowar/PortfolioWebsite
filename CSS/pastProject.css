@@ -1,13 +1,33 @@
 .mainProject {
+    height:0px;
+    content-visibility: hidden;
+    transition: all 0.3s ease-in-out;
+}
+
+.rowTop:hover .mainProject{
+    display: block;
+    content-visibility: visible;
+    height: 500px;
     background-color: rgb(255, 250, 243);
-    height: 450px;
+}
+
+.rowTop:hover .titleLine{
+    width: 10%;
+    border-top: 1px solid black;
+}
+
+.rowTop:hover h3{
+    font-size: 25px;
+}
+
+.rowTop:hover .rowContence{
+    height: fit-content;
 }
 
 .rowTop {
     display:flex;
     justify-content: center;
     align-items: center;
-    height: 500px;
     background-color: aqua;
     height: fit-content;
     padding: 20px;
@@ -15,6 +35,8 @@
 
 .rowContence {
     width: 80%;
+    transition: all 0.3s ease-in-out;
+    overflow: hidden;
 }
 
 .projectTitle {
@@ -23,15 +45,18 @@
 }
 
 .titleLine {
-    width: 10%;
+    border: none;
+    width: 0px;
     margin-left: 30px;
     margin-right: 30px;
     margin-top: 45px;
     height: 0px;
+    transition: all 0.3s ease-in-out;
 }
 
 h3 {
-    font-size: 25px;
+    font-size: 50px;
+    transition: all 0.3s ease-in-out;
 }
 
 h4 {
@@ -48,6 +73,7 @@ h4 {
     width: 80%;
     display: block;
     padding-left: 10%;
+    text-align: center
 }
 
 .right {
@@ -79,15 +105,18 @@ h4 {
     background-color: #f4d5c4;
     width: 100px;
     height: 50px;
+    align-content: center;
+    text-align: center;
+    
 }
 
 .proButton:hover {
     padding: 5px;
     border-radius: 5px;
     border: 1px solid #eca47d;
-    background-color: #f4d5c4;
-    width: 150px;
-    height: 75px;
+    background-color: #eca47d;
+    width: 100px;
+    height: 50px;
     align-content: center;
     text-align: center;
 }
@@ -97,8 +126,23 @@ h4 {
     display: flex;
     justify-content: center;
     align-content: center;
+    padding-top: 50px;
+}
+
+h5 {
+    font-size:18px;
+    margin-top: 10px;
 }
 
 h6 {
     font-size: 20px;
+    margin: 0px;
 }
+
+.row {
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+}
+
+
