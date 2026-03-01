@@ -1,0 +1,123 @@
+.infoMe{
+    display: none;
+    justify-content: center;
+    padding: 30px;
+    background-color: #fad0bb;
+    width: 100%;
+    height: 200x;
+    margin-bottom: 30px;
+}
+
+.infoCV{
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    background-color: #fad0bb;
+    width: 100%;
+    height: 200x;
+    margin-bottom: 30px;
+}
+
+h2 {
+    font-size: 60px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+h3 {
+    margin-top: 20px;
+}
+
+.rowTop:hover {
+    height: 500px;
+    background-color: #eca47d;
+}
+
+.rowTop:hover h3{
+    font-size: 25px;
+}
+
+
+.rowTop:hover .infoMeEducation{
+    display: flex;
+}
+
+.rowTop:hover .hiddenContainer{
+    height: fit-content;
+    content-visibility: visible;
+}
+
+.rowTop:hover .infoMeEducation{
+    display: flex;
+}
+
+.rowTop:hover h2{
+    font-size: 0px;
+    display:none;
+}
+
+.rowTop:hover .infoMe{
+    display: flex;
+    content-visibility: visible;
+    background-color: rgb(255, 250, 243);
+}
+
+.hiddenContainer {
+    height: 0px;
+    content-visibility: hidden;
+    display: flex;
+    justify-content: center;
+    transition: all 0.5s ease-in-out;
+    overflow: hidden;
+}
+
+.infoMeContent {
+    background-color: white;
+    width: 50%;
+    text-align: center;
+    border: 1px solid black;
+    padding: 50px;
+    align-content: center;
+    transition: all 0.3s ease-in-out;
+}
+
+.infoMeEducation {
+    display: none;
+    background-color: white;
+    width: 50%;
+    text-align: center;
+    border: 1px solid black;
+    padding: 50px;
+    justify-content: space-evenly;
+    align-content: center;
+}
+
+.educationContainer {
+    width: 30%;
+}
+
+.educationContainer p {
+    margin-top: 0px;
+    line-height: 40px;
+}
+
+.infoCVContent {
+    background-color: white;
+    width: 50%;
+    text-align: center;
+    border: 1px solid black;
+    padding: 50px;
+    align-content: center;
+    height: 200px;
+}
+
+.infoCV button {
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #eca47d;
+    background-color: #f4d5c4;
+}
+
+.infoCV button:hover {
+    background-color: #eca47d;;
+}
