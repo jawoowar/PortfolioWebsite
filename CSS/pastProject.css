@@ -4,23 +4,28 @@
     transition: all 0.3s ease-in-out;
 }
 
-.mainProjectVisible{
+h3 {
+    font-size: 50px;
+    transition: all 0.3s ease-in-out;
+}
+
+.rowTop:hover .mainProject{
     display: block;
     content-visibility: visible;
     height: 500px;
     background-color: rgb(255, 250, 243);
 }
 
-.titleLineVisible{
+.rowTop:hover .titleLine{
     width: 10%;
     border-top: 1px solid black;
 }
 
-.h3Visible{
+.rowTop:hover h3{
     font-size: 25px;
 }
 
-.rowContenceVisible{
+.rowTop:hover .rowContence{
     height: fit-content;
 }
 
@@ -62,11 +67,6 @@
     margin-right: 30px;
     margin-top: 45px;
     height: 0px;
-    transition: all 0.3s ease-in-out;
-}
-
-h3 {
-    font-size: 50px;
     transition: all 0.3s ease-in-out;
 }
 
