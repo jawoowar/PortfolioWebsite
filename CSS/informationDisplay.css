@@ -50,6 +50,7 @@
     display: flex;
     height: 500px;
     content-visibility: visible;
+    justify-content: space-evenly;
 }
 
 .site:hover .image {
@@ -68,8 +69,7 @@
 .infoBox {
     background-color: white;
     width: 45%;
-    margin-left: auto;
-    margin-right: 1%;
+
     text-align: center;
     padding: 40px;
     padding-left: 60px;
@@ -85,8 +85,7 @@
 
 .imageBox {
     width: 45%;
-    margin-left: 1%;
-    margin-right: auto;
+
     padding: 30px;
     justify-content: center;
     align-content: center;
